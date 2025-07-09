@@ -5,7 +5,7 @@ Library    Collections
 Resource    ../Resources/Initiate_Browser.robot
 
 Test Setup            Browser Setup Fourth URL
-Test Teardown         Close Browser Window
+Test Teardown         Close Browser Window And Exit
 
 *** Test Cases ***
 TC009-1 Simulate Keyboard

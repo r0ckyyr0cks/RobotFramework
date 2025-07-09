@@ -4,39 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73a45a7-94a1-42f7-81d3-88c2196196fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RobotFramework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExternalKeywords/Keyword_Create_Folder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Create_Folder.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Initiate_Browser.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Initiate_Browser_tw.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Process_Captcha_BiharBhumi.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Take_Screenshot.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Snapshots/patnaPropTax.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC001_Open_Close_Browser.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC002_FormFills_tw.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC003_SetVariable.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC004_ListVariable.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC005_Using_For_Loop.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC006_Simulate_Browser_Buttons.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC007_Execute_JavaScript.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC008_Mouse_Actions.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC009_Simulate_Keyboard.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC010_Handling_Multiple_Window.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC011_Switch_Between_Tabs.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC012_Switch_Between_Tabs.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC013_Handling_Alert.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC014_Fetch_Value_Speed_Title.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC015_ElseIf.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC016_Create_Folder.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC100_PatnaPropertyTax.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC101_Banka_Rajaun.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/runTests.bat" afterDir="false" />
+    <list default="true" id="c73a45a7-94a1-42f7-81d3-88c2196196fe" name="Changes" comment="Work Files from July 2025">
+      <change afterPath="$PROJECT_DIR$/ExternalKeywords/Keyword_Create_Folder_with_Argument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Create_Folder_with_Argument.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TC017_Create_Sub_Folder.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC009_Simulate_Keyboard.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC009_Simulate_Keyboard.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC016_Create_Folder.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC016_Create_Folder.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +80,38 @@
       <option name="presentableId" value="Default" />
       <updated>1749959040786</updated>
     </task>
+    <task id="LOCAL-00001" summary="Work Files from July 2025">
+      <option name="closed" value="true" />
+      <created>1752041804314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752041804314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Work Files from July 2025">
+      <option name="closed" value="true" />
+      <created>1752041831614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752041831614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Work Files from July 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work Files from July 2025" />
   </component>
 </project>
