@@ -1,25 +1,13 @@
 *** Settings ***
 Library       SeleniumLibrary
 
-*** Variables ***
-${Browser}    Chrome
-${URL}        https://thetestingworld.com/testings
+Resource      ../Resources/Initiate_Browser.robot
+
+Test Setup        Browser Setup TC001
+Test Teardown     Close Browser Window And Exit
 
 *** Test Cases ***
 TC001 Open and Close Browser
-    Open Browser    ${URL}    ${Browser}
-#    Maximize Browser Window
-    Set Window Size      1024   768
-    ${default_timeout}=  get selenium implicit wait
-    log to console  ${default_timeout}
-    set selenium implicit wait  20 seconds
-    ${default_timeout}=  get selenium implicit wait
-    log to console  ${default_timeout}
-    ${speed}=  get selenium speed
-    log to console  ${speed}
-    set selenium speed    0.3 seconds
-    ${speed}=  get selenium speed
-    log to console  ${speed}
     Input Text            name:fld_username                              ranjanr
     Input Text            xpath://*[@id="tab-content1"]/form/input[3]    rakesh.entrust@outlook.com
     Clear Element Text    name:fld_username

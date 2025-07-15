@@ -10,6 +10,10 @@ ${URL2}        http://www.automationpr
 ${URL3}        https://testautomationpractice.blogspot.com
 ${URL4}        http://www.automationpractice.pl/index.php
 ${URL5}        https://biharbhumi.bihar.gov.in/Biharbhumi
+${URL6}		   https://demo.automationtesting.in/Register.html
+${URL7}		   https://testautomationpractice.blogspot.com
+${URL8}        https://thetestingworld.com/testings
+${URL9}        https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 ${Browser}     Chrome
 
@@ -76,6 +80,34 @@ Browser Setup Bihar Bhumi
     ${speed}=                                               get selenium speed
     log to console                                          ${speed}
     set selenium speed                                      0.9 seconds
+    ${speed}=                                               get selenium speed
+    log to console                                          ${speed}
+
+Browser Setup TC001
+    Open Browser                                            ${URL8}    ${Browser}
+    Set Window Size                                         1024   768
+    ${default_timeout}=                                     get selenium implicit wait
+    log to console                                          ${default_timeout}
+    set selenium implicit wait                              20 seconds
+    ${default_timeout}=                                     get selenium implicit wait
+    log to console                                          ${default_timeout}
+    ${speed}=                                               get selenium speed
+    log to console                                          ${speed}
+    set selenium speed                                      0.3 seconds
+    ${speed}=                                               get selenium speed
+    log to console                                          ${speed}
+
+Browser Setup TC019
+    Open Browser                                            ${URL9}    ${Browser}
+    Set Window Size                                         1024   768
+    ${default_timeout}=                                     get selenium implicit wait
+    log to console                                          ${default_timeout}
+    set selenium implicit wait                              20 seconds
+    ${default_timeout}=                                     get selenium implicit wait
+    log to console                                          ${default_timeout}
+    ${speed}=                                               get selenium speed
+    log to console                                          ${speed}
+    set selenium speed                                      0.3 seconds
     ${speed}=                                               get selenium speed
     log to console                                          ${speed}
 

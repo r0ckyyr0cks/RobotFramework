@@ -1,13 +1,10 @@
 *** Settings ***
 Library         SeleniumLibrary
+
 Resource        ../Resources/Initiate_Browser_tw.robot
 
 Test Setup                Browser Setup
 Test Teardown             Close Browser Window
-
-*** Variables ***
-${Browser}    Chrome
-${URL}        https://thetestingworld.com/testings
 
 *** Test Cases ***
 TC001 Open and Close Browser
@@ -26,7 +23,7 @@ Enter Username Email Password
     Input Password    name:fld_cpassword                             ${retypepassword}
 
 Fill Form of Testing World
-    Enter Username Email Password    ranjanr    rakesh.entrust@outlook.com    Pitney@Bowes#123    Pitney@Bowes#123
+    Enter Username Email Password      ranjanr    rakesh.entrust@outlook.com    Pitney@Bowes#123    Pitney@Bowes#123
     Select Checkbox                    name:terms
     Click Link                         xpath://*[@id="tab-content1"]/form/div/em/a
     Click Element                      xpath://*[@id="popup1"]/a
