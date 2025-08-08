@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73a45a7-94a1-42f7-81d3-88c2196196fe" name="Changes" comment="Work Files from July 2025">
-      <change afterPath="$PROJECT_DIR$/ExternalKeywords/Keyword_Create_Folder_with_Argument.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Create_Folder_with_Argument.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/TC017_Create_Sub_Folder.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TC020_Login_to_CRM.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC009_Simulate_Keyboard.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC009_Simulate_Keyboard.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC016_Create_Folder.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC016_Create_Folder.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Initiate_Browser.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Initiate_Browser.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Take_Screenshot.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Take_Screenshot.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snapshots/screenshot_5363.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC007_Execute_JavaScript.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC007_Execute_JavaScript.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC008_Mouse_Actions.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC008_Mouse_Actions.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/TC011_Switch_Between_Tabs.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC011_Switch_Between_Tabs.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;r0ckyyr0cks&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/r0ckyyr0cks/RobotFramework.git&quot;,
+    &quot;accountId&quot;: &quot;776e92b9-5de8-4cab-a554-dc552045d051&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TestCases/TC101_Banka_Rajaun.robot" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -45,16 +59,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Robot Framework.Suite TC101 Banka Rajaun.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ReadExcelData.executor&quot;: &quot;Run&quot;,
+    &quot;Robot Framework.Suite TC018 Json Demo.executor&quot;: &quot;Debug&quot;,
+    &quot;Robot Framework.Suite TC101 Banka Rajaun.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Suite TC101 Banka Rajaun" type="RobotCodeConfigurationType" factoryName="ROBOT_FRAMEWORK_TEST" temporary="true">
       <method v="2" />
@@ -68,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -96,7 +112,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752041831614</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Work Files from July 2025">
+      <option name="closed" value="true" />
+      <created>1752068593483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752068593483</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Work Files from July 2025">
+      <option name="closed" value="true" />
+      <created>1752563379751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752563379751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Work Files from July 2025">
+      <option name="closed" value="true" />
+      <created>1752569135549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752569135549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

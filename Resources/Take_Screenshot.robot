@@ -6,6 +6,7 @@ Library    String
 Library    OperatingSystem
 
 *** Variables ***
+#here dots state, go one level up and save the screenshot in Snapshots folder
 ${SCREENSHOT_DIR}      ../Snapshots
 
 *** Keywords ***

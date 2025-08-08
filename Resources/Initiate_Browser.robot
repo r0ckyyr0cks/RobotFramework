@@ -14,13 +14,17 @@ ${URL6}		   https://demo.automationtesting.in/Register.html
 ${URL7}		   https://testautomationpractice.blogspot.com
 ${URL8}        https://thetestingworld.com/testings
 ${URL9}        https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+${URL10}	   https://rahulshettyacademy.com/AutomationPractice
+${URL11}	   https://rahulshettyacademy.com/loginpagePractise
+${URL12}	   https://naveenautomationlabs.com/index.php?route=account/login
+${URL13}       https://automationplayground.com/crm/index.html
 
 ${Browser}     Chrome
 
 *** Keywords ***
 Browser Setup
     Open Browser                                            ${URL}                        ${Browser}
-    Set Window Size                                         1024   1024
+    Set Window Size                                         width=1024   height=1024
     ${default_timeout}=                                     get selenium implicit wait
     set selenium implicit wait                              20s
     ${default_timeout}=                                     get selenium implicit wait
@@ -73,45 +77,54 @@ Browser Setup Bihar Bhumi
     #Maximize Browser Window
     Set Window Size                                         1078    1078
     ${default_timeout}=                                     get selenium implicit wait
-    log to console                                          ${default_timeout}
+    #log to console                                          ${default_timeout}
     set selenium implicit wait                              10 seconds
     ${default_timeout}=                                     get selenium implicit wait
-    log to console                                          ${default_timeout}
+    #log to console                                          ${default_timeout}
     ${speed}=                                               get selenium speed
-    log to console                                          ${speed}
+    #log to console                                          ${speed}
     set selenium speed                                      0.9 seconds
     ${speed}=                                               get selenium speed
-    log to console                                          ${speed}
+    #log to console                                          ${speed}
 
 Browser Setup TC001
     Open Browser                                            ${URL8}    ${Browser}
     Set Window Size                                         1024   768
     ${default_timeout}=                                     get selenium implicit wait
-    log to console                                          ${default_timeout}
+    #log to console                                          ${default_timeout}
     set selenium implicit wait                              20 seconds
     ${default_timeout}=                                     get selenium implicit wait
-    log to console                                          ${default_timeout}
+    #log to console                                          ${default_timeout}
     ${speed}=                                               get selenium speed
-    log to console                                          ${speed}
+    #log to console                                          ${speed}
     set selenium speed                                      0.3 seconds
     ${speed}=                                               get selenium speed
-    log to console                                          ${speed}
+    #log to console                                          ${speed}
 
 Browser Setup TC019
     Open Browser                                            ${URL9}    ${Browser}
-    Set Window Size                                         1024   768
+    Set Window Size                                         width=1024   height=768
     ${default_timeout}=                                     get selenium implicit wait
-    log to console                                          ${default_timeout}
+    #log to console                                          ${default_timeout}
     set selenium implicit wait                              20 seconds
     ${default_timeout}=                                     get selenium implicit wait
-    log to console                                          ${default_timeout}
+    #log to console                                          ${default_timeout}
     ${speed}=                                               get selenium speed
-    log to console                                          ${speed}
-    set selenium speed                                      0.3 seconds
+    #log to console                                          ${speed}
+    set selenium speed                                      0.3s
     ${speed}=                                               get selenium speed
-    log to console                                          ${speed}
+    #log to console                                          ${speed}
+
+Browser Setup TC020
+    Open Browser                                            ${URL13}    ${Browser}
+    Set Window Size                                         width=1024   height=1024
+    ${default_timeout}=                                     get selenium implicit wait
+    set selenium implicit wait                              20 seconds
+    ${default_timeout}=                                     get selenium implicit wait
+    ${speed}=                                               get selenium speed
+    set selenium speed                                      0.2s
+    ${speed}=                                               get selenium speed
 
 Close Browser Window And Exit
-    #here dots state, go one level up and save the screenshot in Snapshots folder
     Take Screenshot With Random Name
     Close All Browsers

@@ -3,7 +3,10 @@ Library                            SeleniumLibrary
 Resource                           ../Resources/Initiate_Browser.robot
 
 Test Setup               Browser Setup
-Test Teardown            Close Browser Window
+Test Teardown            Close Browser Window And Exit
+
+#Run the script
+#robot -d Reports TestCases/TC011_Switch_Between_Tabs.robot
 
 *** Test Cases ***
 TC011 Handling Multiple Windows using Title
@@ -21,4 +24,4 @@ TC011 Handling Multiple Windows using Title
     ${var2}                        Get Location
     ${title2}                      Get Title
     Title Should Be                GitHub - robotframework/robotframework.github.com: Robot Framework ecosystem from page
-    Sleep                          2s
+    Sleep                          0.5s
