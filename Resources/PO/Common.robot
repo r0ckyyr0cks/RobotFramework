@@ -4,11 +4,11 @@ Library    SeleniumLibrary
 Resource    ../../Resources/Take_Screenshot.robot
 
 *** Variables ***
-
+${BROWSER}    chrome
 
 *** Keywords ***
 Begin Web Test
-    Open Browser    about:blank    chrome
+    Open Browser    about:blank    ${BROWSER}
     Set Window Size                                         width=1024   height=1024
     ${default_timeout}=                                     get selenium implicit wait
     set selenium implicit wait                              20 seconds
