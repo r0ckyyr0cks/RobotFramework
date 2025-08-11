@@ -7,4 +7,4 @@ Verify Dashbord for the Users Listed
 
 
 Click New User
-    Click Link    New Customer
+    Click Link             New Customer
