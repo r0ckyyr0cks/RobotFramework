@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73a45a7-94a1-42f7-81d3-88c2196196fe" name="Changes" comment="Work Files from July 2025">
-      <change afterPath="$PROJECT_DIR$/TestCases/TC020_Login_to_CRM.robot" afterDir="false" />
+    <list default="true" id="c73a45a7-94a1-42f7-81d3-88c2196196fe" name="Changes" comment="Work Files from Aug 2025">
+      <change afterPath="$PROJECT_DIR$/Resources/crm_PO/Common.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/crm_PO/HomePage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/crm_PO/LoginPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/TC022_CRM_Login.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Initiate_Browser.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Initiate_Browser.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Take_Screenshot.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Take_Screenshot.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Snapshots/screenshot_5363.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC007_Execute_JavaScript.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC007_Execute_JavaScript.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC008_Mouse_Actions.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC008_Mouse_Actions.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/TC011_Switch_Between_Tabs.robot" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/TC011_Switch_Between_Tabs.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +54,32 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2yWn8u7viFFQ8aeyJvIEudCjAMX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.ReadExcelData.executor&quot;: &quot;Run&quot;,
-    &quot;Robot Framework.Suite TC018 Json Demo.executor&quot;: &quot;Debug&quot;,
-    &quot;Robot Framework.Suite TC101 Banka Rajaun.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ReadExcelData.executor": "Run",
+    "Robot Framework.Suite TC018 Json Demo.executor": "Debug",
+    "Robot Framework.Suite TC101 Banka Rajaun.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/PycharmProjects/RobotFramework/Resources/crm_PO",
+    "settings.editor.selected.configurable": "promo.typescript"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\RobotFramework\Resources\crm_PO" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Suite TC101 Banka Rajaun" type="RobotCodeConfigurationType" factoryName="ROBOT_FRAMEWORK_TEST" temporary="true">
       <method v="2" />
@@ -136,7 +145,71 @@
       <option name="project" value="LOCAL" />
       <updated>1752569135549</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754670865737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754670865737</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754670917210</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754670917210</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754838225655</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754838225655</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754838247118</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754838247118</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754883158306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754883158306</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754887900750</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754887900750</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1754888085253</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1754888085253</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Work Files from Aug 2025">
+      <option name="closed" value="true" />
+      <created>1757040359834</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757040359834</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +225,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work Files from July 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work Files from July 2025" />
+    <MESSAGE value="Work Files from Aug 2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work Files from Aug 2025" />
   </component>
 </project>

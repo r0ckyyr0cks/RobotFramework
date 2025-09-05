@@ -1,151 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-07-09T12:13:21.817540" rpa="false" schemaversion="5">
-<suite id="s1" name="TC016 Create Folder" source="C:\PycharmProjects\RobotFramework\TestCases\TC016_Create_Folder.robot">
-<test id="s1-t1" name="TC009-1 Simulate Keyboard" line="12">
-<kw name="Browser Setup Fourth URL" owner="Initiate_Browser" type="SETUP">
+<robot generator="Robot 7.3 (Python 3.13.3 on win32)" generated="2025-09-05T20:38:27.880289" rpa="false" schemaversion="5">
+<suite id="s1" name="TC022 CRM Login" source="C:\PycharmProjects\RobotFramework\TestCases\TC022_CRM_Login.robot">
+<test id="s1-t1" name="TC022 Login to CRM" line="15">
+<kw name="Begin Web Test" owner="Common" type="SETUP">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-07-09T12:13:22.200949" level="INFO">Opening browser 'Chrome' to base url 'http://www.automationpractice.pl/index.php'.</msg>
-<arg>${URL4}</arg>
-<arg>${Browser}</arg>
+<msg time="2025-09-05T20:38:28.434759" level="INFO">Opening browser 'chrome' to base url 'about:blank'.</msg>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-07-09T12:13:22.200717" elapsed="6.609287"/>
+<status status="PASS" start="2025-09-05T20:38:28.434436" elapsed="2.477813"/>
 </kw>
 <kw name="Set Window Size" owner="SeleniumLibrary">
-<arg>1024</arg>
-<arg>1024</arg>
+<arg>width=1024</arg>
+<arg>height=1024</arg>
 <doc>Sets current windows size to given ``width`` and ``height``.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.810291" elapsed="0.044167"/>
+<status status="PASS" start="2025-09-05T20:38:30.913363" elapsed="0.040690"/>
 </kw>
 <kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
-<msg time="2025-07-09T12:13:28.855838" level="INFO">${default_timeout} = 0 seconds</msg>
+<msg time="2025-09-05T20:38:30.955151" level="INFO">${default_timeout} = 0 seconds</msg>
 <var>${default_timeout}</var>
 <doc>Gets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.855218" elapsed="0.000712"/>
+<status status="PASS" start="2025-09-05T20:38:30.954536" elapsed="0.000722"/>
 </kw>
 <kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
-<arg>20s</arg>
+<arg>20 seconds</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.856207" elapsed="0.001952"/>
+<status status="PASS" start="2025-09-05T20:38:30.955513" elapsed="0.001803"/>
 </kw>
 <kw name="Get Selenium Implicit Wait" owner="SeleniumLibrary">
-<msg time="2025-07-09T12:13:28.858799" level="INFO">${default_timeout} = 20 seconds</msg>
+<msg time="2025-09-05T20:38:30.958004" level="INFO">${default_timeout} = 20 seconds</msg>
 <var>${default_timeout}</var>
 <doc>Gets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.858480" elapsed="0.000369"/>
+<status status="PASS" start="2025-09-05T20:38:30.957644" elapsed="0.000420"/>
 </kw>
 <kw name="Get Selenium Speed" owner="SeleniumLibrary">
-<msg time="2025-07-09T12:13:28.859269" level="INFO">${speed} = 0 seconds</msg>
+<msg time="2025-09-05T20:38:30.958539" level="INFO">${speed} = 0 seconds</msg>
 <var>${speed}</var>
 <doc>Gets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.859049" elapsed="0.000265"/>
+<status status="PASS" start="2025-09-05T20:38:30.958293" elapsed="0.000297"/>
 </kw>
 <kw name="Set Selenium Speed" owner="SeleniumLibrary">
-<arg>0.5s</arg>
+<arg>0.2s</arg>
 <doc>Sets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.859504" elapsed="0.000307"/>
+<status status="PASS" start="2025-09-05T20:38:30.958784" elapsed="0.000305"/>
 </kw>
 <kw name="Get Selenium Speed" owner="SeleniumLibrary">
-<msg time="2025-07-09T12:13:28.860236" level="INFO">${speed} = 500 milliseconds</msg>
+<msg time="2025-09-05T20:38:30.959523" level="INFO">${speed} = 200 milliseconds</msg>
 <var>${speed}</var>
 <doc>Gets the delay that is waited after each Selenium command.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.859997" elapsed="0.000285"/>
+<status status="PASS" start="2025-09-05T20:38:30.959280" elapsed="0.000303"/>
 </kw>
-<status status="PASS" start="2025-07-09T12:13:22.199834" elapsed="6.660761"/>
+<status status="PASS" start="2025-09-05T20:38:28.432767" elapsed="2.526952"/>
 </kw>
-<kw name="Create Folder at Runtime" owner="Create_Folder">
-<kw name="Create Folder" owner="Keyword_Create_Folder">
-<msg time="2025-07-09T12:13:28.865183" level="FAIL">PermissionError: [WinError 5] Access is denied: 'c:\\inetpub\\TestingWorldIndia'</msg>
-<status status="FAIL" start="2025-07-09T12:13:28.864802" elapsed="0.001630">PermissionError: [WinError 5] Access is denied: 'c:\\inetpub\\TestingWorldIndia'</status>
+<kw name="Load" owner="HomePage">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-09-05T20:38:30.960834" level="INFO">Opening url 'http://www.automationpractice.pl/index.php'</msg>
+<arg>${START_URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-09-05T20:38:30.960604" elapsed="4.981915"/>
 </kw>
-<status status="FAIL" start="2025-07-09T12:13:28.862640" elapsed="0.003987">PermissionError: [WinError 5] Access is denied: 'c:\\inetpub\\TestingWorldIndia'</status>
+<status status="PASS" start="2025-09-05T20:38:30.960202" elapsed="4.982457"/>
 </kw>
+<kw name="Navigate to Sign in Page" owner="HomePage">
 <kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-09-05T20:38:35.943880" level="INFO">Clicking link 'Sign in'.</msg>
 <arg>Sign in</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-07-09T12:13:28.866932" elapsed="0.000042"/>
+<status status="PASS" start="2025-09-05T20:38:35.943235" elapsed="1.731061"/>
 </kw>
-<kw name="Press Key" owner="SeleniumLibrary">
-<arg>id:email</arg>
-<arg>neha.rani@gmail.com</arg>
-<doc>Simulates user pressing key on element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-07-09T12:13:28.867289" elapsed="0.000056"/>
+<status status="PASS" start="2025-09-05T20:38:35.942979" elapsed="1.731767"/>
 </kw>
+<kw name="Verify Page Loaded" owner="HomePage">
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-09-05T20:38:38.130010" level="INFO">Current page contains text 'Already registered?'.</msg>
+<arg>Already registered?</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-09-05T20:38:37.677180" elapsed="0.453187"/>
+</kw>
+<status status="PASS" start="2025-09-05T20:38:37.676152" elapsed="0.454579"/>
+</kw>
+<kw name="Enter Username" owner="LoginPage">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-09-05T20:38:38.133935" level="INFO">Typing text 'bhaiji12@gmail.com' into text field 'id=email'.</msg>
+<arg>id=email</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-09-05T20:38:38.132937" elapsed="0.809692"/>
+</kw>
+<status status="PASS" start="2025-09-05T20:38:38.131912" elapsed="0.811127"/>
+</kw>
+<kw name="Enter Password" owner="LoginPage">
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-09-05T20:38:38.945832" level="INFO">Typing password into text field 'id=passwd'.</msg>
+<msg time="2025-09-05T20:38:39.400236" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>id=passwd</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-09-05T20:38:38.945096" elapsed="0.715604"/>
+</kw>
+<status status="PASS" start="2025-09-05T20:38:38.944188" elapsed="0.716716"/>
+</kw>
+<kw name="Submit Credentials" owner="LoginPage">
 <kw name="Press Key" owner="SeleniumLibrary">
-<arg>id:passwd</arg>
+<arg>id=passwd</arg>
 <arg>\\13</arg>
 <doc>Simulates user pressing key on element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2025-07-09T12:13:28.867670" elapsed="0.000064"/>
+<status status="PASS" start="2025-09-05T20:38:39.661793" elapsed="1.352423"/>
 </kw>
-<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
-<arg>Password is required</arg>
-<doc>Waits until ``text`` appears on the current page.</doc>
-<status status="NOT RUN" start="2025-07-09T12:13:28.868043" elapsed="0.000082"/>
+<status status="PASS" start="2025-09-05T20:38:39.661401" elapsed="1.353159"/>
 </kw>
-<kw name="Sleep" owner="BuiltIn">
-<arg>1</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2025-07-09T12:13:28.868495" elapsed="0.000055"/>
-</kw>
-<kw name="Close Browser Window And Exit" owner="Initiate_Browser" type="TEARDOWN">
+<kw name="End Web Test" owner="Common" type="TEARDOWN">
 <kw name="Take Screenshot With Random Name" owner="Take_Screenshot">
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-07-09T12:13:28.872263" level="INFO">${random} = 1920</msg>
+<msg time="2025-09-05T20:38:41.018100" level="INFO">${random} = 3100</msg>
 <var>${random}</var>
 <arg>str(__import__('random').randint(1000, 9999))</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.871883" elapsed="0.000422"/>
+<status status="PASS" start="2025-09-05T20:38:41.017463" elapsed="0.000713"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-07-09T12:13:28.872668" level="INFO">${filename} = screenshot_1920.png</msg>
+<msg time="2025-09-05T20:38:41.018800" level="INFO">${filename} = screenshot_3100.png</msg>
 <var>${filename}</var>
 <arg>screenshot_${random}.png</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.872477" elapsed="0.000224"/>
+<status status="PASS" start="2025-09-05T20:38:41.018434" elapsed="0.000433"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2025-07-09T12:13:28.873113" level="INFO">${full_path} = ../Snapshots\screenshot_1920.png</msg>
+<msg time="2025-09-05T20:38:41.019630" level="INFO">${full_path} = ../Snapshots\screenshot_3100.png</msg>
 <var>${full_path}</var>
 <arg>__import__('os').path.join(r'''${SCREENSHOT_DIR}''', '''${filename}''')</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.872835" elapsed="0.000312"/>
+<status status="PASS" start="2025-09-05T20:38:41.019106" elapsed="0.000590"/>
 </kw>
 <kw name="Create Directory" owner="OperatingSystem">
-<msg time="2025-07-09T12:13:28.873531" level="INFO" html="true">Directory '&lt;a href="file://C:\PycharmProjects\Snapshots"&gt;C:\PycharmProjects\Snapshots&lt;/a&gt;' already exists.</msg>
+<msg time="2025-09-05T20:38:41.020802" level="INFO" html="true">Directory '&lt;a href="file://C:\PycharmProjects\Snapshots"&gt;C:\PycharmProjects\Snapshots&lt;/a&gt;' already exists.</msg>
 <arg>${SCREENSHOT_DIR}</arg>
 <doc>Creates the specified directory.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.873264" elapsed="0.000348"/>
+<status status="PASS" start="2025-09-05T20:38:41.020193" elapsed="0.000744"/>
 </kw>
 <kw name="Capture Page Screenshot" owner="SeleniumLibrary">
-<msg time="2025-07-09T12:13:29.660137" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Snapshots/screenshot_1920.png"&gt;&lt;img src="../Snapshots/screenshot_1920.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-09-05T20:38:41.312966" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../Snapshots/screenshot_3100.png"&gt;&lt;img src="../Snapshots/screenshot_3100.png" width="800px"&gt;&lt;/a&gt;</msg>
 <arg>${full_path}</arg>
 <doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
-<status status="PASS" start="2025-07-09T12:13:28.873748" elapsed="0.786629"/>
+<status status="PASS" start="2025-09-05T20:38:41.021201" elapsed="0.291907"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Screenshot saved as: ${full_path}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-07-09T12:13:29.660811" elapsed="0.000848"/>
+<status status="PASS" start="2025-09-05T20:38:41.313374" elapsed="0.000346"/>
 </kw>
-<status status="PASS" start="2025-07-09T12:13:28.871461" elapsed="0.790484"/>
+<status status="PASS" start="2025-09-05T20:38:41.016760" elapsed="0.297055"/>
 </kw>
 <kw name="Close All Browsers" owner="SeleniumLibrary">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" start="2025-07-09T12:13:29.662272" elapsed="2.715503"/>
+<status status="PASS" start="2025-09-05T20:38:41.314187" elapsed="2.514989"/>
 </kw>
-<status status="PASS" start="2025-07-09T12:13:28.870413" elapsed="3.507540"/>
+<status status="PASS" start="2025-09-05T20:38:41.015881" elapsed="2.813756"/>
 </kw>
-<status status="FAIL" start="2025-07-09T12:13:22.198836" elapsed="10.179425">PermissionError: [WinError 5] Access is denied: 'c:\\inetpub\\TestingWorldIndia'</status>
+<status status="PASS" start="2025-09-05T20:38:28.432028" elapsed="15.398345"/>
 </test>
-<status status="FAIL" start="2025-07-09T12:13:21.818803" elapsed="10.560665"/>
+<status status="PASS" start="2025-09-05T20:38:27.882380" elapsed="15.951505"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="TC016 Create Folder" id="s1" pass="0" fail="1" skip="0">TC016 Create Folder</stat>
+<stat name="TC022 CRM Login" id="s1" pass="1" fail="0" skip="0">TC022 CRM Login</stat>
 </suite>
 </statistics>
 <errors>

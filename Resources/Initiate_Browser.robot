@@ -6,18 +6,19 @@ Resource    ../Resources/Take_Screenshot.robot
 *** Variables ***
 ${URL}         https://robotframework.org
 ${URL1}        https://thetestingworld.com
-${URL2}        http://www.automationpr
+${URL2}        http://www.automationpractice.pl
 ${URL3}        https://testautomationpractice.blogspot.com
 ${URL4}        http://www.automationpractice.pl/index.php
 ${URL5}        https://biharbhumi.bihar.gov.in/Biharbhumi
 ${URL6}		   https://demo.automationtesting.in/Register.html
-${URL7}		   https://testautomationpractice.blogspot.com
+${URL7}	   	   https://testautomationpractice.blogspot.com
 ${URL8}        https://thetestingworld.com/testings
 ${URL9}        https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 ${URL10}	   https://rahulshettyacademy.com/AutomationPractice
 ${URL11}	   https://rahulshettyacademy.com/loginpagePractise
 ${URL12}	   https://naveenautomationlabs.com/index.php?route=account/login
 ${URL13}       https://automationplayground.com/crm/index.html
+${URL14}       https://the-internet.herokuapp.com/login
 
 ${Browser}     Chrome
 
